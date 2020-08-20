@@ -1,6 +1,6 @@
 import axios from "axios";
-import { GET_ALL_USERS, LOADING, ERROR } from "../types/usuariosType";
-// una funcion que retorna otra function
+import { GET_ALL, LOADING, ERROR } from "../types/publicacionesType";
+
 export const traerTodos = () => async (dispatch) => {
   dispatch({
     type: LOADING,
@@ -8,11 +8,11 @@ export const traerTodos = () => async (dispatch) => {
 
   try {
     const response = await axios.get(
-      "https://jsonplaceholder.typicode.com/users"
+      "http://jsonplaceholder.typicode.com/posts"
     );
 
     dispatch({
-      type: GET_ALL_USERS,
+      type: GET_ALL,
       payload: response.data,
     });
   } catch (error) {

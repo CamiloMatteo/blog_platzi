@@ -32,3 +32,11 @@ body {
   display: inline;
   opacity: 0.5;
 }
+
+.center {
+  text-align: center;
+}
+
+.text__red {
+  color: #ff0000;
+}
