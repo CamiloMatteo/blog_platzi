@@ -40,3 +40,7 @@ body {
 .text__red {
   color: #ff0000;
 }
+
+.pub_title {
+  border-top: 1px solid #000;
+}
