@@ -119,7 +119,6 @@ class Publicaciones extends Component {
   };
 
   render() {
-    console.log(this.props);
     return (
       <div>
         {this.ponerUsuario()} {this.ponerPublicaciones()}
