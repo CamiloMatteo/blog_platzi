@@ -11,6 +11,8 @@ Unmounting: Solo hay una función en caso de que queramos hacer algo cuando se d
 
 ---
 
+---
+
 ### AXIOS
 
 Instalar axios para realizar llamadas https
