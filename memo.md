@@ -1,3 +1,7 @@
+### GUIA BASICA
+
+---
+
 Tenemos 4 fases por los que un componente pasa:
 
 Initialization: Declaramos nuestro estado o propiedades
